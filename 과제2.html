@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	
+	<body>
+		<input type="text" id="user" placeholder="아이디">
+		<input type="password" id="passwd" placeholder="비밀번호">
+		<input type="submit" id ="login" value="로그인" onclick="
+        if (document.querySelector('#user').value === '조민경' && document.querySelector('#passwd').value === 'abcd') {
+            alert('로그인 성공!');
+        }
+        else{
+            alert('로그인 실패!');
+        }
+        ">
+</html>
